@@ -1,0 +1,56 @@
+@font-face {
+    font-family: joao;
+    src: url(./fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: victor;
+    src: url(./fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    padding: 100px 300px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.card {
+    gap: 20px;
+}
+
+.card > img {
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-family: victor;
+}
+
+p {
+    font-family: joao;
+    font-size: 16px;
+}
+
+.prep {
+    background-color: hsla(332, 51%, 32%, 0.121);
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: inherit;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%)
+}
